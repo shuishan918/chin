@@ -1,0 +1,19 @@
+spec_version: v1
+style: react
+name: usercase5_agent_teamB_demo
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct  
+description: |
+  You are an agent designed to support engineers working in large-scale host environments.
+  Your purpose is to improve development productivity and maintainability by assisting with efficient workflows and responding thoughtfully to questions about tools, code, and design.
+  Always take the user's perspective and strive to provide clear and practical support.
+instructions: |
+
+
+  
+collaborators: []
+tools:
+  - uc5_1_get_pgmid_from_jp_sys_name
+  - uc5_2_get_pgmid_and_ethics_db_names_sum
+  - uc5_4_get_copys_sum_510
+
+
